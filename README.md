@@ -18,7 +18,7 @@ Assuming it is run from the path contains `tckn_checker.py`.
 
 ```
 
-Let's change one digit to make id number invalid.
+Let's change one digit to make ID number invalid.
 
 ```
 >>> TCKN_Checker.find_tckn("I want to apply and my ID is 12345678955.")
