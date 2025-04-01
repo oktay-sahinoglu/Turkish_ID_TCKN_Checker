@@ -18,7 +18,15 @@ Assuming it is run from the path contains `tckn_checker.py`.
 
 ```
 
-You can perform validation check with or without creating an instance.
+Let's change one digit to make id number invalid.
+
+```
+>>> TCKN_Checker.find_tckn("I want to apply and my ID is 12345678955.")
+[]
+
+```
+
+You can also perform validation check.
 ```
 >>> TCKN_Checker.validate_tckn("12345678950")
 True
