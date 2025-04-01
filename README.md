@@ -31,4 +31,7 @@ You can also perform validation check.
 >>> TCKN_Checker.validate_tckn("12345678950")
 True
 
+>>> TCKN_Checker.validate_tckn("12345678955")
+False
+
 ```
